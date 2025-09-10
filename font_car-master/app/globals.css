@@ -1,0 +1,86 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --background: #ffffff;
+    --foreground: #171717;
+    --card: #ffffff;
+    --card-foreground: #171717;
+    --popover: #ffffff;
+    --popover-foreground: #171717;
+    --primary: #2563eb;
+    --primary-foreground: #ffffff;
+    --secondary: #f1f5f9;
+    --secondary-foreground: #0f172a;
+    --muted: #f1f5f9;
+    --muted-foreground: #64748b;
+    --accent: #f1f5f9;
+    --accent-foreground: #0f172a;
+    --destructive: #ef4444;
+    --destructive-foreground: #ffffff;
+    --border: #e2e8f0;
+    --input: #e2e8f0;
+    --input-foreground: #171717; /* เพิ่มตัวแปรสำหรับ input */
+    --ring: #2563eb;
+    --radius: 0.5rem;
+    --success: #10b981;
+    --success-foreground: #ffffff;
+    --warning: #f59e0b;
+    --warning-foreground: #ffffff;
+  }
+
+  /* ธีมมืด */
+  .dark-classic {
+    --table-foreground: #000000;
+    --background: #1e293b;
+    --foreground: #e2e8f0;
+    --card: #334155;
+    --card-foreground: #f1f5f9;
+    --popover: #334155;
+    --popover-foreground: #f1f5f9;
+    --primary: #3b82f6;
+    --primary-foreground: #ffffff;
+    --secondary: #475569;
+    --secondary-foreground: #f8fafc;
+    --muted: #475569;
+    --muted-foreground: #94a3b8;
+    --accent: #475569;
+    --accent-foreground: #f8fafc;
+    --destructive: #ef4444;
+    --destructive-foreground: #ffffff;
+    --border: #64748b;
+    --input: #f1f5f9; /* พื้นหลัง input อ่อนขึ้น */
+    --input-foreground: #000000; /* ตัวอักษรดำ */
+    --ring: #3b82f6;
+    --success: #10b981;
+    --success-foreground: #ffffff;
+    --warning: #f59e0b;
+    --warning-foreground: #ffffff;
+  }
+}
+
+@layer base {
+  /* ตัว input, textarea, select */
+  input,
+  textarea,
+  select {
+    background-color: var(--input);
+    color: var(--input-foreground);
+    border-color: var(--border);
+    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+  }
+
+  body {
+    background: var(--background);
+    color: var(--foreground);
+    font-family: Arial, Helvetica, sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  * {
+    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+  }
+}
+
+
+
