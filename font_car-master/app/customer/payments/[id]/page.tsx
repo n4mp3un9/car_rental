@@ -538,9 +538,6 @@ export default function PaymentPage() {
                           <li className="font-medium text-yellow-600">
                             {t.customerpay.c}
                           </li>
-                          <li className="font-medium text-yellow-600">
-                            {t.customerpay.d}
-                            </li>
                         </ul>
                       </div>
                     </div>

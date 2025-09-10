@@ -518,7 +518,7 @@ export const texts = {
       a:'กรุณาโอนเงินไปยังหมายเลขพร้อมเพย์ตามที่ระบุให้ครบถ้วน',
       b:'ถ่ายรูปหลักฐานการโอนเงินที่มีรายละเอียดครบถ้วน เช่น วันเวลา จำนวนเงิน และรหัสอ้างอิง',
       c:'หลังจากอัพโหลดหลักฐานเรียบร้อย ร้านเช่ารถจะได้รับการแจ้งเตือนและตรวจสอบการชำระเงิน',
-      d:'เมื่อได้รับการยืนยันแล้ว คุณจะได้รับการแจ้งเตือนผ่านอีเมลและสามารถดูสถานะการจองได้ในหน้าการจองของฉัน',
+      
     },
 
     carTypes: {
@@ -1305,7 +1305,7 @@ export const texts = {
     a: 'Please transfer money to the specified PromptPay number completely',
     b: 'Take a photo of the proof of transfer with complete details such as date, time, amount, and reference code',
     c: 'After uploading proof, the car rental shop will receive a notification and verify the payment',
-    d: 'Once confirmed You will receive an email notification and can view your booking status on the My Bookings page.',
+   
     },
 
     carTypes: {
